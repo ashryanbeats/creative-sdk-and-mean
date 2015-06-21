@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/" />
+    <title>Meaniscule</title>
+    <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <script src="/jquery/dist/jquery.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="http://feather.aviary.com/imaging/v2/editor.js"></script>
+    <script src="/main.js"></script>
+</head>
+<body ng-app="Meaniscule">
+    <navbar></navbar>
+    <div ui-view class="container"></div>
+
+<!--     <script type="text/javascript">
+        var featherEditor = new Aviary.Feather({
+            apiKey: '1234567',
+            onSave: function(imageID, newURL) {
+                var img = document.getElementById(imageID);
+                img.src = newURL;
+            }
+        });
+
+        function launchEditor(id, src) {
+            featherEditor.launch({
+                image: id,
+                url: src
+            });
+            return false;
+        }
+
+    </script>  --> 
+</body>
+</html>
