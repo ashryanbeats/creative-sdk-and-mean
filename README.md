@@ -3,10 +3,10 @@
 This is a MEAN stack port of [Adobe's Creative SDK Web example](https://creativesdk.adobe.com/docs/web/#/articles/gettingstarted/index.html).
 
 ## What's it built with?
-This example port is built using [Meaniscule](https://github.com/ashryanbeats/meaniscule), a MEAN stack app generate that I built and maintain.
+This example port is built using [Meaniscule](https://github.com/ashryanbeats/meaniscule), a MEAN stack app generator that I built and maintain.
 
 ## What's different?
-The initial commit is mostly a direct port of the example to MEAN stack. The only difference are:
+The initial commit is mostly a direct port of the example to MEAN stack. The only differences are:
 - there is a [working image](http://i1.wp.com/ashryanbeats.com/wp-content/uploads/2015/04/image.jpg?fit=1024%2C1024) which is served from my website
 - a Bootstrap class has been added to the `Edit!` button
 
