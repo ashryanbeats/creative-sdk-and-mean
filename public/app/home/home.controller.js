@@ -1,9 +1,7 @@
 app.controller('HomeController', function($scope, $http) {
   
-  $scope.msgFromScope = "...And I'm a message from the HomeController scope, just so you know that I work!";
-
   var featherEditor = new Aviary.Feather({
-    apiKey: '1234567',
+    apiKey: '1234567', // public dummy key provided by Adobe in the example on the website
     onSave: function(imageID, newURL) {
         var img = document.getElementById(imageID);
         img.src = newURL;
