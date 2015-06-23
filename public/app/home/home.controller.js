@@ -5,7 +5,8 @@ app.controller('HomeController', function($scope, $http) {
     onSave: function(imageID, newURL) {
         var img = document.getElementById(imageID);
         img.src = newURL;
-    }
+    },
+    theme: "minimum"
   });
 
   $scope.launchEditor = function(id, src) {
